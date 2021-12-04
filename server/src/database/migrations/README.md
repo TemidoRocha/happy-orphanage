@@ -7,3 +7,7 @@ yarn typeorm migration:create -n create_orphanages
 ## to run the migrations
 
 yarn typeorm migration:run
+
+## to rever the migrations
+
+yarn typeorm migration:revert
